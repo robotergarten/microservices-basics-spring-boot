@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/anilallewar/microservices-basics-cloud-config
+          uri: http://mare:8090/git/microservices/config.git
 # While in development mode, you can configure the config server to pick up configuration files from
 # the file system
           
@@ -12,4 +12,4 @@ spring:
 # Defines the port where the config server is running so that rest of the services can pick up 
 # their external configurations
 server:
-  port: 8888          
+  port: 8888
